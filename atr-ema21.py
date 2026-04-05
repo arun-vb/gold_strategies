@@ -37,7 +37,7 @@ ATR_MIN    = 0.60     # reversal body must be >= ATR_MIN * ATR14
 OFFSET     = 0.01     # added to stop distance
 ATR_LEN        = 14
 EMA_LEN        = 21
-TIME_EXIT_BARS = 4       # 4 x 5-min bars = 20-minute time exit
+TIME_EXIT_BARS = 3       # 3 x 5-min bars = 15-minute time exit
 DEFAULT_DAYS   = 365
 
 STRATEGY = "ATR+EMA21 Logic B"
